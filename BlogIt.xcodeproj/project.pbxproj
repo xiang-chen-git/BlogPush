@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0702D0F31A519CE900267FAE /* BITMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0702D0F21A519CE900267FAE /* BITMainViewController.m */; };
+		0702D0FA1A51BB5200267FAE /* BITSinglePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0702D0F91A51BB5200267FAE /* BITSinglePostViewController.m */; };
+		071444621A66B299007A98E4 /* BITViewZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 071444611A66B299007A98E4 /* BITViewZoomAnimation.m */; };
+		073C8B591A6D10DD00C705E9 /* Logo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 073C8B581A6D10DD00C705E9 /* Logo.plist */; };
+		073C8B5C1A6D525500C705E9 /* BITCommentPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073C8B5B1A6D525500C705E9 /* BITCommentPopupViewController.m */; };
+		073C8B5E1A6D763900C705E9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073C8B5D1A6D763900C705E9 /* iAd.framework */; };
+		074881AE1A692D9700FE8375 /* Storyboard_Autolayout.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074881AC1A692D9700FE8375 /* Storyboard_Autolayout.storyboard */; };
+		074B232D1B624BA10000C7B8 /* BITCommentPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073C8B5B1A6D525500C705E9 /* BITCommentPopupViewController.m */; };
+		074B232E1B624BA10000C7B8 /* BITViewZoomAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 071444611A66B299007A98E4 /* BITViewZoomAnimation.m */; };
+		074B232F1B624BA10000C7B8 /* BITMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07761A0C1A812A7000E54AF4 /* BITMapViewController.m */; };
+		074B23301B624BA10000C7B8 /* BITPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836B81A5310B2008A7D89 /* BITPageCell.m */; };
+		074B23311B624BA10000C7B8 /* DDWP.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DB01A45DB04004AC123 /* DDWP.m */; };
+		074B23321B624BA10000C7B8 /* DDWPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DB41A45DB04004AC123 /* DDWPPost.m */; };
+		074B23331B624BA10000C7B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796D8C1A45DADC004AC123 /* AppDelegate.m */; };
+		074B23341B624BA10000C7B8 /* DDWPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 07668AF81A7674290008C64E /* DDWPCategory.m */; };
+		074B23351B624BA10000C7B8 /* DDWPComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DB21A45DB04004AC123 /* DDWPComment.m */; };
+		074B23361B624BA10000C7B8 /* BITCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836A21A529DDF008A7D89 /* BITCommentsViewController.m */; };
+		074B23371B624BA10000C7B8 /* BITPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DBF1A45DDD5004AC123 /* BITPostCell.m */; };
+		074B23381B624BA10000C7B8 /* BITCommentsContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836A81A52EEE1008A7D89 /* BITCommentsContainerViewController.m */; };
+		074B23391B624BA10000C7B8 /* BITMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0702D0F21A519CE900267FAE /* BITMainViewController.m */; };
+		074B233A1B624BA10000C7B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796D891A45DADC004AC123 /* main.m */; };
+		074B233B1B624BA10000C7B8 /* BITCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836A51A529F81008A7D89 /* BITCommentCell.m */; };
+		074B233C1B624BA10000C7B8 /* BITSinglePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0702D0F91A51BB5200267FAE /* BITSinglePostViewController.m */; };
+		074B233D1B624BA10000C7B8 /* BITPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DBB1A45DB81004AC123 /* BITPostsViewController.m */; };
+		074B233F1B624BA10000C7B8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07761A0E1A812E0900E54AF4 /* MapKit.framework */; };
+		074B23401B624BA10000C7B8 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073C8B5D1A6D763900C705E9 /* iAd.framework */; };
+		074B23431B624BA10000C7B8 /* Logo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 073C8B581A6D10DD00C705E9 /* Logo.plist */; };
+		074B23441B624BA10000C7B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07796D941A45DADC004AC123 /* Images.xcassets */; };
+		07668AF91A7674290008C64E /* DDWPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 07668AF81A7674290008C64E /* DDWPCategory.m */; };
+		07761A0D1A812A7000E54AF4 /* BITMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07761A0C1A812A7000E54AF4 /* BITMapViewController.m */; };
+		07761A0F1A812E0900E54AF4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07761A0E1A812E0900E54AF4 /* MapKit.framework */; };
+		07796D8A1A45DADC004AC123 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796D891A45DADC004AC123 /* main.m */; };
+		07796D8D1A45DADC004AC123 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796D8C1A45DADC004AC123 /* AppDelegate.m */; };
+		07796D951A45DADC004AC123 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07796D941A45DADC004AC123 /* Images.xcassets */; };
+		07796DB51A45DB04004AC123 /* DDWP.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DB01A45DB04004AC123 /* DDWP.m */; };
+		07796DB61A45DB04004AC123 /* DDWPComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DB21A45DB04004AC123 /* DDWPComment.m */; };
+		07796DB71A45DB04004AC123 /* DDWPPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DB41A45DB04004AC123 /* DDWPPost.m */; };
+		07796DBC1A45DB81004AC123 /* BITPostsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DBB1A45DB81004AC123 /* BITPostsViewController.m */; };
+		07796DC01A45DDD5004AC123 /* BITPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07796DBF1A45DDD5004AC123 /* BITPostCell.m */; };
+		07C1B5BA1BC3ABCB00225339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B5B81BC3ABCB00225339 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		07C1B5BB1BC3ABCB00225339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07C1B5B81BC3ABCB00225339 /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		07D2C4701B6252ED00ADC5B4 /* Storyboard_Autolayout_NoAds.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D2C46E1B6252ED00ADC5B4 /* Storyboard_Autolayout_NoAds.storyboard */; };
+		07F836A31A529DDF008A7D89 /* BITCommentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836A21A529DDF008A7D89 /* BITCommentsViewController.m */; };
+		07F836A61A529F81008A7D89 /* BITCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836A51A529F81008A7D89 /* BITCommentCell.m */; };
+		07F836A91A52EEE1008A7D89 /* BITCommentsContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836A81A52EEE1008A7D89 /* BITCommentsContainerViewController.m */; };
+		07F836B91A5310B2008A7D89 /* BITPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F836B81A5310B2008A7D89 /* BITPageCell.m */; };
+		26F0A89AB85B86B1B11372CB /* libPods-BlogIt_No_Ads.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F630A666FF6F3D63581E239 /* libPods-BlogIt_No_Ads.a */; };
+		918A3909A7E807FE8F3FB6D5 /* libPods-BlogIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 003EE37F7D37B5A772D912AB /* libPods-BlogIt.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		003EE37F7D37B5A772D912AB /* libPods-BlogIt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogIt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0702D0F11A519CE900267FAE /* BITMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITMainViewController.h; path = "Classes/View Controllers/BITMainViewController.h"; sourceTree = "<group>"; };
+		0702D0F21A519CE900267FAE /* BITMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITMainViewController.m; path = "Classes/View Controllers/BITMainViewController.m"; sourceTree = "<group>"; };
+		0702D0F81A51BB5200267FAE /* BITSinglePostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITSinglePostViewController.h; path = "Classes/View Controllers/BITSinglePostViewController.h"; sourceTree = "<group>"; };
+		0702D0F91A51BB5200267FAE /* BITSinglePostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITSinglePostViewController.m; path = "Classes/View Controllers/BITSinglePostViewController.m"; sourceTree = "<group>"; };
+		071444601A66B299007A98E4 /* BITViewZoomAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITViewZoomAnimation.h; path = Classes/Animations/BITViewZoomAnimation.h; sourceTree = "<group>"; };
+		071444611A66B299007A98E4 /* BITViewZoomAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITViewZoomAnimation.m; path = Classes/Animations/BITViewZoomAnimation.m; sourceTree = "<group>"; };
+		071444631A66B343007A98E4 /* BITViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITViewAnimation.h; path = Classes/Animations/BITViewAnimation.h; sourceTree = "<group>"; };
+		073C8B581A6D10DD00C705E9 /* Logo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Logo.plist; sourceTree = "<group>"; };
+		073C8B5A1A6D525500C705E9 /* BITCommentPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITCommentPopupViewController.h; path = "Classes/View Controllers/BITCommentPopupViewController.h"; sourceTree = "<group>"; };
+		073C8B5B1A6D525500C705E9 /* BITCommentPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITCommentPopupViewController.m; path = "Classes/View Controllers/BITCommentPopupViewController.m"; sourceTree = "<group>"; };
+		073C8B5D1A6D763900C705E9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		073C8B5F1A6D785600C705E9 /* BITConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BITConfig.h; sourceTree = "<group>"; };
+		074881AD1A692D9700FE8375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_Autolayout.storyboard; sourceTree = "<group>"; };
+		074B234A1B624BA10000C7B8 /* BlogIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074B234B1B624BA20000C7B8 /* BlogIt_No_Ads-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BlogIt_No_Ads-Info.plist"; path = "/Users/Dids/Documents/XCode/BlogIt/Code/BlogIt_No_Ads-Info.plist"; sourceTree = "<absolute>"; };
+		07668AF71A7674290008C64E /* DDWPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWPCategory.h; sourceTree = "<group>"; };
+		07668AF81A7674290008C64E /* DDWPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWPCategory.m; sourceTree = "<group>"; };
+		07761A0B1A812A7000E54AF4 /* BITMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITMapViewController.h; path = "Classes/View Controllers/BITMapViewController.h"; sourceTree = "<group>"; };
+		07761A0C1A812A7000E54AF4 /* BITMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITMapViewController.m; path = "Classes/View Controllers/BITMapViewController.m"; sourceTree = "<group>"; };
+		07761A0E1A812E0900E54AF4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		07796D841A45DADC004AC123 /* BlogIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07796D881A45DADC004AC123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07796D891A45DADC004AC123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07796D8B1A45DADC004AC123 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07796D8C1A45DADC004AC123 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07796D941A45DADC004AC123 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07796DAF1A45DB04004AC123 /* DDWP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWP.h; sourceTree = "<group>"; };
+		07796DB01A45DB04004AC123 /* DDWP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWP.m; sourceTree = "<group>"; };
+		07796DB11A45DB04004AC123 /* DDWPComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWPComment.h; sourceTree = "<group>"; };
+		07796DB21A45DB04004AC123 /* DDWPComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWPComment.m; sourceTree = "<group>"; };
+		07796DB31A45DB04004AC123 /* DDWPPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDWPPost.h; sourceTree = "<group>"; };
+		07796DB41A45DB04004AC123 /* DDWPPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDWPPost.m; sourceTree = "<group>"; };
+		07796DBA1A45DB81004AC123 /* BITPostsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITPostsViewController.h; path = "Classes/View Controllers/BITPostsViewController.h"; sourceTree = "<group>"; };
+		07796DBB1A45DB81004AC123 /* BITPostsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITPostsViewController.m; path = "Classes/View Controllers/BITPostsViewController.m"; sourceTree = "<group>"; };
+		07796DBE1A45DDD5004AC123 /* BITPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITPostCell.h; path = Classes/Cells/BITPostCell.h; sourceTree = "<group>"; };
+		07796DBF1A45DDD5004AC123 /* BITPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITPostCell.m; path = Classes/Cells/BITPostCell.m; sourceTree = "<group>"; };
+		07C1B5B91BC3ABCB00225339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BlogIt/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D2C46F1B6252ED00ADC5B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard_Autolayout_NoAds.storyboard; sourceTree = "<group>"; };
+		07F836A11A529DDF008A7D89 /* BITCommentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITCommentsViewController.h; path = "Classes/View Controllers/BITCommentsViewController.h"; sourceTree = "<group>"; };
+		07F836A21A529DDF008A7D89 /* BITCommentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITCommentsViewController.m; path = "Classes/View Controllers/BITCommentsViewController.m"; sourceTree = "<group>"; };
+		07F836A41A529F81008A7D89 /* BITCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITCommentCell.h; path = Classes/Cells/BITCommentCell.h; sourceTree = "<group>"; };
+		07F836A51A529F81008A7D89 /* BITCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITCommentCell.m; path = Classes/Cells/BITCommentCell.m; sourceTree = "<group>"; };
+		07F836A71A52EEE1008A7D89 /* BITCommentsContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITCommentsContainerViewController.h; path = "Classes/View Controllers/BITCommentsContainerViewController.h"; sourceTree = "<group>"; };
+		07F836A81A52EEE1008A7D89 /* BITCommentsContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITCommentsContainerViewController.m; path = "Classes/View Controllers/BITCommentsContainerViewController.m"; sourceTree = "<group>"; };
+		07F836B71A5310B2008A7D89 /* BITPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BITPageCell.h; path = Classes/Cells/BITPageCell.h; sourceTree = "<group>"; };
+		07F836B81A5310B2008A7D89 /* BITPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BITPageCell.m; path = Classes/Cells/BITPageCell.m; sourceTree = "<group>"; };
+		3DCEEF9335AFDC1286C9DBB4 /* Pods-BlogIt (No Ads).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogIt (No Ads).release.xcconfig"; path = "Pods/Target Support Files/Pods-BlogIt (No Ads)/Pods-BlogIt (No Ads).release.xcconfig"; sourceTree = "<group>"; };
+		3E7CDFF0C803B75708AE8F0A /* Pods-BlogIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlogIt/Pods-BlogIt.release.xcconfig"; sourceTree = "<group>"; };
+		4047CF07CD8601DB938BEE2E /* Pods-BlogIt (No Ads).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogIt (No Ads).debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlogIt (No Ads)/Pods-BlogIt (No Ads).debug.xcconfig"; sourceTree = "<group>"; };
+		442084F7C68D8711992BA6BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		67AB15248BF91F203E0F9863 /* Pods-BlogIt_No_Ads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogIt_No_Ads.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlogIt_No_Ads/Pods-BlogIt_No_Ads.release.xcconfig"; sourceTree = "<group>"; };
+		7F630A666FF6F3D63581E239 /* libPods-BlogIt_No_Ads.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogIt_No_Ads.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9077B8D68C1E2E1F5ED2C6A5 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BE967EE060035469583C82EB /* Pods-BlogIt_No_Ads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogIt_No_Ads.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlogIt_No_Ads/Pods-BlogIt_No_Ads.debug.xcconfig"; sourceTree = "<group>"; };
+		C8A317D41A7072F41CBA2E9A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E387DD841E86E0FEAF04F304 /* libPods-BlogIt (No Ads).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlogIt (No Ads).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A81DC5369E585E8B9D68FE /* Pods-BlogIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlogIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlogIt/Pods-BlogIt.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074B233E1B624BA10000C7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074B233F1B624BA10000C7B8 /* MapKit.framework in Frameworks */,
+				074B23401B624BA10000C7B8 /* iAd.framework in Frameworks */,
+				26F0A89AB85B86B1B11372CB /* libPods-BlogIt_No_Ads.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07796D811A45DADC004AC123 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07761A0F1A812E0900E54AF4 /* MapKit.framework in Frameworks */,
+				073C8B5E1A6D763900C705E9 /* iAd.framework in Frameworks */,
+				918A3909A7E807FE8F3FB6D5 /* libPods-BlogIt.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044D07E6D2CF4E3D59B8F8B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9077B8D68C1E2E1F5ED2C6A5 /* Pods.debug.xcconfig */,
+				442084F7C68D8711992BA6BA /* Pods.release.xcconfig */,
+				E7A81DC5369E585E8B9D68FE /* Pods-BlogIt.debug.xcconfig */,
+				3E7CDFF0C803B75708AE8F0A /* Pods-BlogIt.release.xcconfig */,
+				4047CF07CD8601DB938BEE2E /* Pods-BlogIt (No Ads).debug.xcconfig */,
+				3DCEEF9335AFDC1286C9DBB4 /* Pods-BlogIt (No Ads).release.xcconfig */,
+				BE967EE060035469583C82EB /* Pods-BlogIt_No_Ads.debug.xcconfig */,
+				67AB15248BF91F203E0F9863 /* Pods-BlogIt_No_Ads.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0714445F1A66B280007A98E4 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				071444601A66B299007A98E4 /* BITViewZoomAnimation.h */,
+				071444611A66B299007A98E4 /* BITViewZoomAnimation.m */,
+				071444631A66B343007A98E4 /* BITViewAnimation.h */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		07796D7B1A45DADC004AC123 = {
+			isa = PBXGroup;
+			children = (
+				07796DAD1A45DAEF004AC123 /* Libraries */,
+				07796D861A45DADC004AC123 /* BlogIt */,
+				07796D851A45DADC004AC123 /* Products */,
+				044D07E6D2CF4E3D59B8F8B8 /* Pods */,
+				8A708D4ABDCF6FD5EB93FB83 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07796D851A45DADC004AC123 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07796D841A45DADC004AC123 /* BlogIt.app */,
+				074B234A1B624BA10000C7B8 /* BlogIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07796D861A45DADC004AC123 /* BlogIt */ = {
+			isa = PBXGroup;
+			children = (
+				07796DB81A45DB1A004AC123 /* Classes */,
+				073C8B5F1A6D785600C705E9 /* BITConfig.h */,
+				07796D8B1A45DADC004AC123 /* AppDelegate.h */,
+				07796D8C1A45DADC004AC123 /* AppDelegate.m */,
+				074881AC1A692D9700FE8375 /* Storyboard_Autolayout.storyboard */,
+				07D2C46E1B6252ED00ADC5B4 /* Storyboard_Autolayout_NoAds.storyboard */,
+				07C1B5B81BC3ABCB00225339 /* LaunchScreen.storyboard */,
+				07796D941A45DADC004AC123 /* Images.xcassets */,
+				07796D871A45DADC004AC123 /* Supporting Files */,
+			);
+			path = BlogIt;
+			sourceTree = "<group>";
+		};
+		07796D871A45DADC004AC123 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				074B234B1B624BA20000C7B8 /* BlogIt_No_Ads-Info.plist */,
+				07796D881A45DADC004AC123 /* Info.plist */,
+				07796D891A45DADC004AC123 /* main.m */,
+				073C8B581A6D10DD00C705E9 /* Logo.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07796DAD1A45DAEF004AC123 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				07796DAE1A45DB04004AC123 /* DDWP */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		07796DAE1A45DB04004AC123 /* DDWP */ = {
+			isa = PBXGroup;
+			children = (
+				07796DAF1A45DB04004AC123 /* DDWP.h */,
+				07796DB01A45DB04004AC123 /* DDWP.m */,
+				07796DB11A45DB04004AC123 /* DDWPComment.h */,
+				07796DB21A45DB04004AC123 /* DDWPComment.m */,
+				07796DB31A45DB04004AC123 /* DDWPPost.h */,
+				07796DB41A45DB04004AC123 /* DDWPPost.m */,
+				07668AF71A7674290008C64E /* DDWPCategory.h */,
+				07668AF81A7674290008C64E /* DDWPCategory.m */,
+			);
+			name = DDWP;
+			path = Libraries/DDWP;
+			sourceTree = "<group>";
+		};
+		07796DB81A45DB1A004AC123 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0714445F1A66B280007A98E4 /* Animations */,
+				07796DBD1A45DDBC004AC123 /* Cells */,
+				07796DB91A45DB22004AC123 /* View Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		07796DB91A45DB22004AC123 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0702D0F11A519CE900267FAE /* BITMainViewController.h */,
+				0702D0F21A519CE900267FAE /* BITMainViewController.m */,
+				07796DBA1A45DB81004AC123 /* BITPostsViewController.h */,
+				07796DBB1A45DB81004AC123 /* BITPostsViewController.m */,
+				0702D0F81A51BB5200267FAE /* BITSinglePostViewController.h */,
+				0702D0F91A51BB5200267FAE /* BITSinglePostViewController.m */,
+				07F836A71A52EEE1008A7D89 /* BITCommentsContainerViewController.h */,
+				07F836A81A52EEE1008A7D89 /* BITCommentsContainerViewController.m */,
+				07F836A11A529DDF008A7D89 /* BITCommentsViewController.h */,
+				07F836A21A529DDF008A7D89 /* BITCommentsViewController.m */,
+				073C8B5A1A6D525500C705E9 /* BITCommentPopupViewController.h */,
+				073C8B5B1A6D525500C705E9 /* BITCommentPopupViewController.m */,
+				07761A0B1A812A7000E54AF4 /* BITMapViewController.h */,
+				07761A0C1A812A7000E54AF4 /* BITMapViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		07796DBD1A45DDBC004AC123 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				07F836B71A5310B2008A7D89 /* BITPageCell.h */,
+				07F836B81A5310B2008A7D89 /* BITPageCell.m */,
+				07796DBE1A45DDD5004AC123 /* BITPostCell.h */,
+				07796DBF1A45DDD5004AC123 /* BITPostCell.m */,
+				07F836A41A529F81008A7D89 /* BITCommentCell.h */,
+				07F836A51A529F81008A7D89 /* BITCommentCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8A708D4ABDCF6FD5EB93FB83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07761A0E1A812E0900E54AF4 /* MapKit.framework */,
+				073C8B5D1A6D763900C705E9 /* iAd.framework */,
+				C8A317D41A7072F41CBA2E9A /* libPods.a */,
+				003EE37F7D37B5A772D912AB /* libPods-BlogIt.a */,
+				E387DD841E86E0FEAF04F304 /* libPods-BlogIt (No Ads).a */,
+				7F630A666FF6F3D63581E239 /* libPods-BlogIt_No_Ads.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074B232A1B624BA10000C7B8 /* BlogIt_No_Ads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074B23471B624BA10000C7B8 /* Build configuration list for PBXNativeTarget "BlogIt_No_Ads" */;
+			buildPhases = (
+				074B232B1B624BA10000C7B8 /* Check Pods Manifest.lock */,
+				074B232C1B624BA10000C7B8 /* Sources */,
+				074B233E1B624BA10000C7B8 /* Frameworks */,
+				074B23421B624BA10000C7B8 /* Resources */,
+				074B23461B624BA10000C7B8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogIt_No_Ads;
+			productName = BlogIt;
+			productReference = 074B234A1B624BA10000C7B8 /* BlogIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07796D831A45DADC004AC123 /* BlogIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07796DA71A45DADC004AC123 /* Build configuration list for PBXNativeTarget "BlogIt" */;
+			buildPhases = (
+				3C94A1A6AEE7E0FB7A23A6AC /* Check Pods Manifest.lock */,
+				07796D801A45DADC004AC123 /* Sources */,
+				07796D811A45DADC004AC123 /* Frameworks */,
+				07796D821A45DADC004AC123 /* Resources */,
+				C7B7FF8F827E9A747CAC6E31 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogIt;
+			productName = BlogIt;
+			productReference = 07796D841A45DADC004AC123 /* BlogIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07796D7C1A45DADC004AC123 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BIT;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Didstopia;
+				TargetAttributes = {
+					074B232A1B624BA10000C7B8 = {
+						DevelopmentTeam = MEPU8L3CL3;
+					};
+					07796D831A45DADC004AC123 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = MEPU8L3CL3;
+					};
+				};
+			};
+			buildConfigurationList = 07796D7F1A45DADC004AC123 /* Build configuration list for PBXProject "BlogIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07796D7B1A45DADC004AC123;
+			productRefGroup = 07796D851A45DADC004AC123 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07796D831A45DADC004AC123 /* BlogIt */,
+				074B232A1B624BA10000C7B8 /* BlogIt_No_Ads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074B23421B624BA10000C7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D2C4701B6252ED00ADC5B4 /* Storyboard_Autolayout_NoAds.storyboard in Resources */,
+				07C1B5BB1BC3ABCB00225339 /* LaunchScreen.storyboard in Resources */,
+				074B23431B624BA10000C7B8 /* Logo.plist in Resources */,
+				074B23441B624BA10000C7B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07796D821A45DADC004AC123 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073C8B591A6D10DD00C705E9 /* Logo.plist in Resources */,
+				07C1B5BA1BC3ABCB00225339 /* LaunchScreen.storyboard in Resources */,
+				07796D951A45DADC004AC123 /* Images.xcassets in Resources */,
+				074881AE1A692D9700FE8375 /* Storyboard_Autolayout.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		074B232B1B624BA10000C7B8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		074B23461B624BA10000C7B8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlogIt_No_Ads/Pods-BlogIt_No_Ads-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C94A1A6AEE7E0FB7A23A6AC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C7B7FF8F827E9A747CAC6E31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BlogIt/Pods-BlogIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074B232C1B624BA10000C7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074B232D1B624BA10000C7B8 /* BITCommentPopupViewController.m in Sources */,
+				074B232E1B624BA10000C7B8 /* BITViewZoomAnimation.m in Sources */,
+				074B232F1B624BA10000C7B8 /* BITMapViewController.m in Sources */,
+				074B23301B624BA10000C7B8 /* BITPageCell.m in Sources */,
+				074B23311B624BA10000C7B8 /* DDWP.m in Sources */,
+				074B23321B624BA10000C7B8 /* DDWPPost.m in Sources */,
+				074B23331B624BA10000C7B8 /* AppDelegate.m in Sources */,
+				074B23341B624BA10000C7B8 /* DDWPCategory.m in Sources */,
+				074B23351B624BA10000C7B8 /* DDWPComment.m in Sources */,
+				074B23361B624BA10000C7B8 /* BITCommentsViewController.m in Sources */,
+				074B23371B624BA10000C7B8 /* BITPostCell.m in Sources */,
+				074B23381B624BA10000C7B8 /* BITCommentsContainerViewController.m in Sources */,
+				074B23391B624BA10000C7B8 /* BITMainViewController.m in Sources */,
+				074B233A1B624BA10000C7B8 /* main.m in Sources */,
+				074B233B1B624BA10000C7B8 /* BITCommentCell.m in Sources */,
+				074B233C1B624BA10000C7B8 /* BITSinglePostViewController.m in Sources */,
+				074B233D1B624BA10000C7B8 /* BITPostsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07796D801A45DADC004AC123 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073C8B5C1A6D525500C705E9 /* BITCommentPopupViewController.m in Sources */,
+				071444621A66B299007A98E4 /* BITViewZoomAnimation.m in Sources */,
+				07761A0D1A812A7000E54AF4 /* BITMapViewController.m in Sources */,
+				07F836B91A5310B2008A7D89 /* BITPageCell.m in Sources */,
+				07796DB51A45DB04004AC123 /* DDWP.m in Sources */,
+				07796DB71A45DB04004AC123 /* DDWPPost.m in Sources */,
+				07796D8D1A45DADC004AC123 /* AppDelegate.m in Sources */,
+				07668AF91A7674290008C64E /* DDWPCategory.m in Sources */,
+				07796DB61A45DB04004AC123 /* DDWPComment.m in Sources */,
+				07F836A31A529DDF008A7D89 /* BITCommentsViewController.m in Sources */,
+				07796DC01A45DDD5004AC123 /* BITPostCell.m in Sources */,
+				07F836A91A52EEE1008A7D89 /* BITCommentsContainerViewController.m in Sources */,
+				0702D0F31A519CE900267FAE /* BITMainViewController.m in Sources */,
+				07796D8A1A45DADC004AC123 /* main.m in Sources */,
+				07F836A61A529F81008A7D89 /* BITCommentCell.m in Sources */,
+				0702D0FA1A51BB5200267FAE /* BITSinglePostViewController.m in Sources */,
+				07796DBC1A45DB81004AC123 /* BITPostsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		074881AC1A692D9700FE8375 /* Storyboard_Autolayout.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				074881AD1A692D9700FE8375 /* Base */,
+			);
+			name = Storyboard_Autolayout.storyboard;
+			sourceTree = "<group>";
+		};
+		07C1B5B81BC3ABCB00225339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07C1B5B91BC3ABCB00225339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		07D2C46E1B6252ED00ADC5B4 /* Storyboard_Autolayout_NoAds.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D2C46F1B6252ED00ADC5B4 /* Base */,
+			);
+			name = Storyboard_Autolayout_NoAds.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		074B23481B624BA10000C7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE967EE060035469583C82EB /* Pods-BlogIt_No_Ads.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BLOGIT_AD_FREE=1",
+				);
+				INFOPLIST_FILE = "BlogIt_No_Ads-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didstopia.BlogIt;
+				PRODUCT_NAME = BlogIt;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		074B23491B624BA10000C7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67AB15248BF91F203E0F9863 /* Pods-BlogIt_No_Ads.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"BLOGIT_AD_FREE=1",
+				);
+				INFOPLIST_FILE = "BlogIt_No_Ads-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didstopia.BlogIt;
+				PRODUCT_NAME = BlogIt;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07796DA51A45DADC004AC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07796DA61A45DADC004AC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07796DA81A45DADC004AC123 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A81DC5369E585E8B9D68FE /* Pods-BlogIt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BlogIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didstopia.BlogIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07796DA91A45DADC004AC123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7CDFF0C803B75708AE8F0A /* Pods-BlogIt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = BlogIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.didstopia.BlogIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074B23471B624BA10000C7B8 /* Build configuration list for PBXNativeTarget "BlogIt_No_Ads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074B23481B624BA10000C7B8 /* Debug */,
+				074B23491B624BA10000C7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07796D7F1A45DADC004AC123 /* Build configuration list for PBXProject "BlogIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07796DA51A45DADC004AC123 /* Debug */,
+				07796DA61A45DADC004AC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07796DA71A45DADC004AC123 /* Build configuration list for PBXNativeTarget "BlogIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07796DA81A45DADC004AC123 /* Debug */,
+				07796DA91A45DADC004AC123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07796D7C1A45DADC004AC123 /* Project object */;
+}
